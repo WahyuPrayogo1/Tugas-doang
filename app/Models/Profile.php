@@ -9,7 +9,7 @@ class Profile extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['biodata', 'age', 'address', 'avatar', 'user_id'];
+    protected $fillable = ['id','biodata', 'age', 'address', 'avatar', 'user_id'];
 
     public $incrementing = false;
     protected $keyType = 'string';

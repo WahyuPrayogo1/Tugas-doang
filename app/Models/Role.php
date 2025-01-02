@@ -9,7 +9,7 @@ class Role extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name'];
+    protected $fillable = ['name','id'];
 
     public $incrementing = false; // Karena menggunakan UUID
     protected $keyType = 'string';
