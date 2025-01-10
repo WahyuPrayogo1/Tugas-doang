@@ -37,6 +37,7 @@
                             No avatar
                         @endif
                     </td>
+
                     <td>{{ $profile->user->name }}</td>
                     <td>
                         <a href="{{ route('profiles.show', $profile) }}" class="btn btn-info btn-sm">View</a>
